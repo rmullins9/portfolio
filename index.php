@@ -190,7 +190,7 @@
                 <h2>The Wind Kinetics Institute</h2>
               </hgroup>
               <div class="entry-content">
-                <p>The Wind Kinetics Institute is a custome metal fabrication shop specializing in wind powered sculptures for corporate parks and residences. When WKI needed a website they needed one that would bring the sculptures to life.</p>
+                <p>The Wind Kinetics Institute is a custom metal fabrication shop specializing in wind powered sculptures for corporate parks and residences. When WKI needed a website they needed one that would bring the sculptures to life.</p>
                 <a class="more-link" href="#portfolioModal-wki" data-toggle="modal">view project</a> </div>
             </div>
           </div>
@@ -265,7 +265,7 @@
                 <h2>Animatronic Bear</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>The Animatronic Bear website is a php-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages, to a fully database-driven inventory of products. After creating the inventory, I was able to then link inventory items together using meta data.</p>
                 <a class="more-link" href="#portfolioModal-anb" data-toggle="modal">view project</a> </div>
             </div>
           </div>
@@ -425,10 +425,11 @@
              <!--  <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2> -->
              <p></p>
              <p>Randy currently works at JPMorgan Chase as a web application developer on the data visualization team.</p>
-             <p>Previously Randy worked for AAA Ohio Auto Club as a web developer...</p>
-              <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.</p>
-              <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</p>
-              <p>A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es.</p>
+             <p>Previously, Randy worked for AAA Ohio Auto Club as a web developer, managing internal development and assisting on the Core Web Team for external web development.</p>
+             <p>In the past 10 years, Randy has worked on nearly 50 websites, data integrations and ecommerce systems.</p>
+             <p>Randy lives in Reynoldsburg, OH with his wife and daughter.</p>
+
+              
             </div>
             <!-- /.featurette -->
             <hr class="featurette-divider">
@@ -529,78 +530,41 @@
     <!-- MODAL WINDOWS -->
 
 
-<div class="modal fade" id="portfolioModal-wki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        
-
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-
-        <p></p>
-        <p>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</p>
-
-        <p></p>
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p><p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
 
 
-
-
-
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    <div class="modal fade" id="portfolioModal-chase" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- ### Dashboards Modal ### -->
+    <div class="modal fade" id="portfolioModal-dbd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-
           <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
           </div>
-
-
           <div class="modal-body">
-            
-                       
-                            <h2>AAA - Real-time Dashboards</h2>
-                            <!-- <hr class="star-primary"> -->
-                            <img src="img/mcc-thumb.png" class="img-responsive img-centered" alt="">
-                            <img src="img/ers-thumb.png" class="img-responsive img-centered" alt="">
-                            <img src="img/fleet-h-thumb.png" class="img-responsive img-centered" alt="">
+            <h2>AAA - Real-time Dashboards</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/mcc-thumb.png" class="img-responsive img-centered" alt="">
+                  <img src="img/ers-thumb.png" class="img-responsive img-centered" alt="">
+                  <img src="img/fleet-h-thumb.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>In the Information Age, real-time data is of-the-essence. Using pure JavaScript and RESTful AJAX calls, these dashboards give up-to-the-second mission-critical information to call center staff and executive management.</p>
 
+                  <h4>Call Center Dashboards</h4>
+                  <p>The suite of call center dashboards provide real-time information on call and agent statistics. These dashboards are displayed on TV's in multiple call centers, as well as on PCs. THere is a light theme and dark theme. The dashboards are built with a pure JavaScript frontend which uses AJAX calls to retrieve data from the Cisco phone system through an XML-based middleware called WSO2. For this project, I worked with our phone system administrator to identify necessary fields in the database, then I created the XML web services and the JavaScript frontend.</p>
 
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-
-
-                          
-
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-       
-
-
-
-
+                  <h4>Fleet Performance Dashboards</h4>
+                  <p>This set of dashboards provide real-time and historical metrics to executive management to help monitor and make educated decisions about AAA towing performance. </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
           </div>
         </div>
       </div>
@@ -609,47 +573,172 @@
 
 
 
-
-
-     <div class="portfolio-modal modal fade" id="portfolioModal-dbd" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- ### WKI Modal ### -->
+    <div class="modal fade" id="portfolioModal-wki" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
-            </div>
+          </div>
+          <div class="modal-body">
+            <h2>WKI - Website</h2>
             <div class="container">
-                <div class="row">
-                    <div class="span81 offset21">
-                        <div class="modal-body">
-                            <h2>AAA - Real-time Dashboards</h2>
-                            <!-- <hr class="star-primary"> -->
-                            <img src="img/mcc-thumb.png" class="img-responsive img-centered" alt="">
-                            <img src="img/ers-thumb.png" class="img-responsive img-centered" alt="">
-                            <img src="img/fleet-h-thumb.png" class="img-responsive img-centered" alt="">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/wki-thumb.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>The Wind Kinetics Institute is a custom metal fabrication shop specializing in wind powered sculptures for corporate parks and residences. When WKI needed a website they needed one that would bring the sculptures to life.</p>
+
+                 
+                  <p>The WKI website features large format photos of the sculptures and drilldowns to learn more about each.</p>
+
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-
-
-                          
-
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+ <!-- ### CHASE Modal ### -->
+    <div class="modal fade" id="portfolioModal-chase" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
                     </div>
                 </div>
+          </div>
+          <div class="modal-body">
+            <h2>Chase - Data Visualization</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/bdv-thumb.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>Using multiple JavaScript frameworks, these interactive dashboards display real-time views of tactical progress.</p>
+                
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
+    </div>
+
+
+<!-- ### AAA - Website Modal ### -->
+    <div class="modal fade" id="portfolioModal-aaaweb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>AAA - Responsive Website</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/oac-thumb.jpg" class="img-responsive img-centered" alt="">
+                  <img src="img/sweep1-thumb.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>Working with the Ohio Auto Club's web team, I helped design and create pages for their new, fully-responsive website (Not yet published). The website uses bootstrap and runs on Ruby on Rails. Additionally, I helped reconfigure our travel booking website to be fully responsive, by designing bootstrap css to control the page.</p>
+                  <h4>Sweepstakes</h4>
+                  <p>In addition to working on the responsive website, I also managed several pages and built sweepstakes. Sweepstakes were built as either facebook apps, or as HTML that connects data back to and Exact Target Data Extension. Facebook apps were built with Exact Target's Social Pages tool.</p>
+                  <h4>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ### AAA - Website Modal ### -->
+    <div class="modal fade" id="portfolioModal-email1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>Email</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/email1-lg.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>While working for The Guitammer Company, I managed our email program using Constant Contact. This included email design, messaging, list management and the html construction of the email. This particular email was sent to drummers.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 
 
 
-
-
-
-
+<!-- ### AAA - Website Modal ### -->
+    <div class="modal fade" id="portfolioModal-anb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>Animatronic Bear - Website</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/anb-thumb.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>The Animatronic Bear website is a php-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages, to a fully database-driven inventory of products. After creating the inventory, I was able to then link inventory items together using meta data.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
