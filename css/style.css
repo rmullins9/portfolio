@@ -403,6 +403,7 @@ height: auto;
 .modal-body {
 position: relative;
 /*padding: 20px;*/
+background-color:#FFF;
 }
 
 .modal-body h2{
