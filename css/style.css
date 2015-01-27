@@ -272,8 +272,9 @@ ul#menu-main > li > a:hover {
 	color:#FFF;
 }
 #headerwrap blockquote{
-	color:rgba(255,255,255,.6);
+	color:rgba(255,255,255,.8);
 	background-color:rgba(0,0,0,.6);
+	padding:6px;
 }
 #headerwrap h1 {
 	color: #FFFFFF;

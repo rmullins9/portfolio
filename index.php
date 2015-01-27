@@ -76,7 +76,7 @@
             <nav class="pull-right nav-collapse collapse">
               <ul id="menu-main" class="nav">
                 <li><a title="portfolio" href="#portfolio">Portfolio</a></li>
-                <li><a title="services" href="#services">Skills</a></li>
+                <!-- <li><a title="services" href="#services">Skills</a></li> -->
                 <!-- <li><a title="news" href="#news">News</a></li> -->
                 <li><a title="team" href="#team">About Me</a></li>
                 <li><a title="contact" href="#contact">Contact</a></li>
@@ -96,11 +96,11 @@
       <header class="clearfix">
         <div class="container">
           <div class="row">
-            <div class="span6 header-img-wrap">
+            <div class="span4 header-img-wrap">
              <img class="img-responsive" src='img/RandallMullins2.png' />
             </div>
     
-            <div class="span6 header-text-wrap">
+            <div class="span8 header-text-wrap">
              <h1>Randall Mullins <br /><span>Web Developer</span></h1>
              <blockquote>
               Randy has 10 years of experience leveraging web technologies and bringing digital marketing and social media initiatives to life. Highly organized and motivated, Randy utilizes his marketing &amp; communications background to create powerful and intuitive digital experiences.
@@ -154,127 +154,115 @@
     <section id="portfolio" class="scrollblock">
       <div class="container">
         <!-- <div class="align"><i class="icon-desktop-circled"></i></div> -->
-        <h1 id="folio-headline">Portfolio</h1>
+        <h1 id="folio-headline">Selected Works</h1>
         <div class="row">
+
+
+          <div class="span4">
+            <div class="mask2"> <a href="img/bdv-lg.jpg" rel="prettyPhoto"><img src="img/bdv-thumb.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>Data Visualization</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Using multiple JavaScript frameworks, these interactive wallboards display real-time views of tactical progress.</p>
+                <a class="more-link" href="#portfolioModal-bdv" data-toggle="modal">view project</a> </div>
+            </div>
+          </div>
+        
+
+
           <div class="span4">
             <div class="mask2"> <a href="img/mcc-lg.png" rel="prettyPhoto"><img src="img/dashboard-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>AAA - Real-time Dashboards</h2>
+                <h2>Real-time Dashboards</h2>
               </hgroup>
               <div class="entry-content">
-                <p>In the Information Age, real-time data is of-the-essence. Using pure JavaScript and RESTful AJAX calls, these dashboards give up-to-the-second mission-critical information to call center staff and executive management.</p>
+                <p><!-- In the Information Age, real-time data is of-the-essence. -->Built using pure JavaScript and RESTful AJAX calls, these dashboards provide essential call center KPIs and other performance metrics to front-line staff and executive management.
 
-                  <!-- this tv screen sized dashboard keeps call center KPIs updated by the second.</p> -->
+
+               <!--   Built using pure JavaScript and RESTful AJAX calls, these dashboards give up-to-the-second mission-critical information to call center staff and executive management. --></p>
                 <a class="more-link" href="#portfolioModal-dbd" data-toggle="modal">view project</a> </div>
             </div>
-            <!-- /.inside -->
           </div>
 
-         <!--  <div class="span4">
-            <div class="mask2"> <a href="img/fleet-h-lg.png" rel="prettyPhoto"><img src="img/fleet-h-thumb.png" alt=""></a> </div>
+          
+
+       
+
+        <div class="span4">
+            <div class="mask2"> <a href="img/tst-lg.jpg" rel="prettyPhoto"><img src="img/tst-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>Historical Performance Dashboard</h2>
+                <h2>Responsive Travel Website</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Using data harvested from an Oracle database, this JavaScript-powered front-end allows executive management to view fleet performance statistics based on selected date ranges.</p>
-                <a class="more-link" href="#">view project</a> </div>
+                <p>Used bootstrap/CSS to reformat AAA Ohio's existing travel website to create a state-of-the-art mobile booking experience.</p>
+                <a class="more-link" href="#portfolioModal-tst" data-toggle="modal">view project</a> </div>
             </div>
-          </div> -->
+          </div>
+
+        </div> <!-- CLOSE ROW -->
+        
+        <div class="row">
 
           <div class="span4">
             <div class="mask2"> <a href="img/wki-lg.jpg" rel="prettyPhoto"><img src="img/wki-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>The Wind Kinetics Institute</h2>
+                <h2>The Wind Kinetics Institute Website</h2>
               </hgroup>
               <div class="entry-content">
-                <p>The Wind Kinetics Institute is a custom metal fabrication shop specializing in wind powered sculptures for corporate parks and residences. When WKI needed a website they needed one that would bring the sculptures to life.</p>
+                <p>Website built using static HTML/CSS for a metal fabrication shop. Incorporating expert SEO techniques, the site increased visibility to a local sculptor and brought his art to life in a digital format.</p>
                 <a class="more-link" href="#portfolioModal-wki" data-toggle="modal">view project</a> </div>
             </div>
           </div>
 
-        <div class="span4">
-            <div class="mask2"> <a href="img/chase-lg.jpg" rel="prettyPhoto"><img src="img/bdv-thumb.jpg" alt=""></a> </div>
+
+          
+
+          <div class="span4">
+            <div class="mask2"> <a href="img/oacis-lg.jpg" rel="prettyPhoto"><img src="img/oacis2-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>JPMorgan Chase - Data Visualization</h2>
+                <h2>AAA Ohio - Intranet Home Page</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Using multiple JavaScript frameworks, these interactive wallboards display real-time views of tactical progress.</p>
-                <a class="more-link" href="#portfolioModal-chase" data-toggle="modal">view project</a> </div>
-            </div>
-          </div>
-        </div> <!-- CLOSE ROW -->
-        
-        <div class="row">
-
-          <!-- <div class="span4">
-            <div class="mask2"> <a href="img/ers-lg.png" rel="prettyPhoto"><img src="img/ers-thumb.png" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Real-time Call Center Dashboard - Dark Theme</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-          </div> -->
-
-
-         <!--  <div class="span4">
-            <div class="mask2"> <a href="img/sweep1-lg.jpg" rel="prettyPhoto"><img src="img/sweep1-thumb.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>AAA Ohio - Extra Credit Sweepstakes</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#">view project</a> </div>
-            </div>
-          </div> -->
-
-           <div class="span4">
-            <div class="mask2"> <a href="img/sweep1-lg.jpg" rel="prettyPhoto"><img src="img/oac-thumb.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>AAA - Mobile Website Development</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>Working with the Ohio Auto Club's web team, I helped design and create pages for their new, fully-responsive website (Not yet published). The website uses bootstrap and runs on Ruby on Rails.</p>
-                <a class="more-link" href="#portfolioModal-aaaweb" data-toggle="modal">view project</a> </div>
+                <p>Using HTML and JavaScript to pull news and events from RSS XML feeds, the Ohio Auto Club intranet home page redesign allows AAA's Internal Communications team to manage real-time news, events and alerts without engaging IT.  </p>
+                <a class="more-link" href="#portfolioModal-oacis" data-toggle="modal">view project</a> </div>
             </div>
           </div>
 
           <div class="span4">
+            <div class="mask2"> <a href="img/oac-lg.jpg" rel="prettyPhoto"><img src="img/oac-thumb.jpg" alt=""></a> </div>
+            <div class="inside">
+              <hgroup>
+                <h2>AAA Ohio - Mobile Website</h2>
+              </hgroup>
+              <div class="entry-content">
+                <p>Used bootstrap/CSS to help design and develop pages for a new, fully-responsive website (not yet published).</p>
+                <!-- <p>Working with the Ohio Auto Club's web team, I helped design and create pages for their new, fully-responsive website (Not yet published). The website uses bootstrap and runs on Ruby on Rails.</p> -->
+                <a class="more-link" href="#portfolioModal-aaaweb" data-toggle="modal">view project</a> </div>
+            </div>
+          </div>
+
+
+        </div><!-- CLOSE ROW -->
+        <div class="row">
+
+          
+          <!-- <div class="span4">
             <div class="mask2"> <a href="img/email1-lg.jpg" rel="prettyPhoto"><img src="img/email1-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Email</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>While working for The Guitammer Company, I managed our email program using Constant Contact. This included email design, messaging, list management and the html construction of the email. This particular email was sent to drummers.</p>
                 <a class="more-link" href="#portfolioModal-email1" data-toggle="modal">view project</a> </div>
             </div>
-          </div>
-          <div class="span4">
-            <div class="mask2"> <a href="img/anb-lg.jpg" rel="prettyPhoto"><img src="img/anb-thumb.jpg" alt=""></a> </div>
-            <div class="inside">
-              <hgroup>
-                <h2>Animatronic Bear</h2>
-              </hgroup>
-              <div class="entry-content">
-                <p>The Animatronic Bear website is a php-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages, to a fully database-driven inventory of products. After creating the inventory, I was able to then link inventory items together using meta data.</p>
-                <a class="more-link" href="#portfolioModal-anb" data-toggle="modal">view project</a> </div>
-            </div>
-          </div>
-
-
-
-
-        </div><!-- CLOSE ROW -->
-        <!-- <div class="row">
+          </div> -->
 
           <div class="span4">
             <div class="mask2"> <a href="img/sweep1-lg.jpg" rel="prettyPhoto"><img src="img/sweep1-thumb.jpg" alt=""></a> </div>
@@ -283,24 +271,33 @@
                 <h2>AAA Ohio - Extra Credit Sweepstakes</h2>
               </hgroup>
               <div class="entry-content">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a class="more-link" href="#portfolioModal-sweep1" data-toggle="modal">view project</a> </div>
+
+
+                <p>Managed AAA Ohio external website pages and supported online marketing initiatives, such as sweepstakes and campaign landing pages.</p>
+
+                <!-- Managed AAA Ohio external website pages and built sweepstakes using either Facebook apps with Exact Target's Social Pages tool, or as HTML that connects data back to an Exact Target Data Extension.  -->
+
+
+                <p></p>
+                <a class="more-link" href="#portfolioModal-sweep" data-toggle="modal">view project</a> </div>
             </div>
           </div>
 
+
+
           <div class="span4">
-            <div class="mask2"> <a href="img/sweep1-lg.jpg" rel="prettyPhoto"><img src="img/oacis-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="img/anb-lg.jpg" rel="prettyPhoto"><img src="img/anb-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
-                <h2>AAA Ohio - Intranet Home Page</h2>
+                <h2>Animatronic Bear Website</h2>
               </hgroup>
               <div class="entry-content">
-                <p>This intranet home page redesign allows the Internal Communications Team to create and manage news and events for the entire company using a convenient wordpress blog backend.  </p>
-                <a class="more-link" href="#portfolioModal-oacis" data-toggle="modal">view project</a> </div>
+                <p>The Animatronic Bear website is a PHP-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages to a fully database-driven inventory of products.</p>
+                <a class="more-link" href="#portfolioModal-anb" data-toggle="modal">view project</a> </div>
             </div>
           </div>
 
-          <div class="span4">
+        <!--   <div class="span4">
             <div class="mask2"> <a href="img/email1-lg.jpg" rel="prettyPhoto"><img src="img/email1-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
@@ -310,10 +307,10 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a class="more-link" href="#portfolioModal-email1" data-toggle="modal" >view project</a> </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
- -->
+
         <!-- CLOSE ROW -->
       </div>
       <!-- /.container -->
@@ -424,10 +421,10 @@
             <div class="featurette">
              <!--  <h2 class="featurette-heading">Want to know more? <span class="muted">| a little about us</span></h2> -->
              <p></p>
-             <p>Randy currently works at JPMorgan Chase as a web application developer on the data visualization team.</p>
+             <p>Randy currently works at JPMorgan Chase as a web application developer on the Data Visualization team.</p>
              <p>Previously, Randy worked for AAA Ohio Auto Club as a web developer, managing internal development and assisting on the Core Web Team for external web development.</p>
              <p>In the past 10 years, Randy has worked on nearly 50 websites, data integrations and ecommerce systems.</p>
-             <p>Randy lives in Reynoldsburg, OH with his wife and daughter.</p>
+             <p>Randy currently resides in Reynoldsburg, OH with his wife and daughter.</p>
 
               
             </div>
@@ -543,22 +540,22 @@
                 </div>
           </div>
           <div class="modal-body">
-            <h2>AAA - Real-time Dashboards</h2>
+            <h2>Real-time Dashboards</h2>
             <div class="container">
               <div class="row">
                 <div class="span4">
-                  <img src="img/mcc-thumb.png" class="img-responsive img-centered" alt="">
-                  <img src="img/ers-thumb.png" class="img-responsive img-centered" alt="">
-                  <img src="img/fleet-h-thumb.png" class="img-responsive img-centered" alt="">
+                  <img src="img/mcc-lg.png" class="img-responsive img-centered" alt="">
+                  <img src="img/ers-lg.png" class="img-responsive img-centered" alt="">
+                  <img src="img/fleet-h-lg.png" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="span8 text-left">
-                  <p>In the Information Age, real-time data is of-the-essence. Using pure JavaScript and RESTful AJAX calls, these dashboards give up-to-the-second mission-critical information to call center staff and executive management.</p>
+                  <p>Built using pure JavaScript and RESTful AJAX calls, these dashboards provide essential call center KPIs and other performance metrics to front-line staff and executive management.</p>
 
                   <h4>Call Center Dashboards</h4>
-                  <p>The suite of call center dashboards provide real-time information on call and agent statistics. These dashboards are displayed on TV's in multiple call centers, as well as on PCs. THere is a light theme and dark theme. The dashboards are built with a pure JavaScript frontend which uses AJAX calls to retrieve data from the Cisco phone system through an XML-based middleware called WSO2. For this project, I worked with our phone system administrator to identify necessary fields in the database, then I created the XML web services and the JavaScript frontend.</p>
+                  <p>The suite of call center dashboards provides real-time information on call and agent metrics. Displayed on TVs in multiple call centers as well as on PCs, the dashboards are built with a pure JavaScript front-end, using AJAX calls to retrieve data from the Cisco phone system through an XML-based middleware called WSO2. For this project, I worked with our phone system administrator to identify necessary fields in the database, then created the XML web services and the JavaScript front-end.</p>
 
                   <h4>Fleet Performance Dashboards</h4>
-                  <p>This set of dashboards provide real-time and historical metrics to executive management to help monitor and make educated decisions about AAA towing performance. </p>
+                  <p>This set of dashboards provides real-time and historical metrics to executive management to help monitor and make strategic decisions about AAA towing performance. </p>
                 </div>
               </div>
             </div>
@@ -584,19 +581,15 @@
                 </div>
           </div>
           <div class="modal-body">
-            <h2>WKI - Website</h2>
+            <h2>The Wind Kinetics Institute Website</h2>
             <div class="container">
               <div class="row">
                 <div class="span4">
-                  <img src="img/wki-thumb.jpg" class="img-responsive img-centered" alt="">
+                  <img src="img/wki-lg.jpg" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="span8 text-left">
-                  <p>The Wind Kinetics Institute is a custom metal fabrication shop specializing in wind powered sculptures for corporate parks and residences. When WKI needed a website they needed one that would bring the sculptures to life.</p>
-
-                 
-                  <p>The WKI website features large format photos of the sculptures and drilldowns to learn more about each.</p>
-
-                
+                  <p>Website built using static HTML/CSS for a metal fabrication shop. Incorporating expert SEO techniques, the site increased visibility to a local sculptor and brought his art to life in a digital format.</p>
+                  <h4>WEBSITE: &nbsp;<span class="muted"><a href="http://windkinetics.com" target="_blank" />www.windkinetics.com</a></span></h4>
                 </div>
               </div>
             </div>
@@ -609,8 +602,8 @@
     </div>
 
 
- <!-- ### CHASE Modal ### -->
-    <div class="modal fade" id="portfolioModal-chase" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <!-- ### bdv Modal ### -->
+    <div class="modal fade" id="portfolioModal-bdv" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -620,14 +613,51 @@
                 </div>
           </div>
           <div class="modal-body">
-            <h2>Chase - Data Visualization</h2>
+            <h2>Data Visualization</h2>
             <div class="container">
               <div class="row">
                 <div class="span4">
-                  <img src="img/bdv-thumb.jpg" class="img-responsive img-centered" alt="">
+                  <img src="img/bdv-lg.jpg" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="span8 text-left">
-                  <p>Using multiple JavaScript frameworks, these interactive dashboards display real-time views of tactical progress.</p>
+                  <p>Using multiple JavaScript frameworks, these interactive dashboards display real-time views of tactical progress across multiple teams for a global financial institution.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- ### OACIS Modal ### -->
+    <div class="modal fade" id="portfolioModal-oacis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>AAA Ohio - Intranet Home Page</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/oacis-lg.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <!-- <p>The Ohio Auto Club intranet home page redesign allows AAA's Internal Communications Team to manage real-time news, events and alerts for the entire company.</p> -->
+                  <p>The intranet home page is a JavaScript front-end that pulls in news, events and alerts asyncronously, allowing AAA's Internal Communications team to give up-to-the-minute information to the company.</p>
+                  <p>I built a custom Wordpress blog to power the news and events, which allowed subject matter experts across the company to create and manage complex news and event feeds, along with full event registration and calendar integration.</p>
+                  <p>The front-end intranet page uses AJAX calls to retrieve and parse the RSS XML feeds into appropriate categories.</p>
+
+                 
+
                 
                 </div>
               </div>
@@ -657,13 +687,12 @@
               <div class="row">
                 <div class="span4">
                   <img src="img/oac-thumb.jpg" class="img-responsive img-centered" alt="">
-                  <img src="img/sweep1-thumb.jpg" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="span8 text-left">
-                  <p>Working with the Ohio Auto Club's web team, I helped design and create pages for their new, fully-responsive website (Not yet published). The website uses bootstrap and runs on Ruby on Rails. Additionally, I helped reconfigure our travel booking website to be fully responsive, by designing bootstrap css to control the page.</p>
-                  <h4>Sweepstakes</h4>
-                  <p>In addition to working on the responsive website, I also managed several pages and built sweepstakes. Sweepstakes were built as either facebook apps, or as HTML that connects data back to and Exact Target Data Extension. Facebook apps were built with Exact Target's Social Pages tool.</p>
-                  <h4>
+                  <p>Working with the Ohio Auto Club's web team, I helped design and create pages for their new, fully-responsive website (Not yet published). The website uses bootstrap and runs on Ruby on Rails.</p>
+              
+                  <!-- <p>In addition to working on the responsive website, I also managed several pages and built sweepstakes. Sweepstakes were built as either facebook apps, or as HTML that connects data back to an Exact Target Data Extension. Facebook apps were built with Exact Target's Social Pages tool.</p> -->
+                
                 
                 </div>
               </div>
@@ -676,7 +705,42 @@
       </div>
     </div>
 
-    <!-- ### AAA - Website Modal ### -->
+
+<!-- ### TST - Website Modal ### -->
+    <div class="modal fade" id="portfolioModal-tst" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>Responsive Travel Website</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/tst-lg.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                  <p>Used bootstrap/CSS to reformat AAA Ohio's existing travel website to create a state-of-the-art mobile booking experience.</p>
+                  <h4>WEBSITE: &nbsp;<span class="muted"><a href="http://aaaohiotravel.tstllc.net" target="_blank" />www.aaaohiotravel.tstllc.net</a></span></h4>
+                 
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ### EMAIL Modal ### -->
     <div class="modal fade" id="portfolioModal-email1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -707,9 +771,40 @@
       </div>
     </div>
 
+ <!-- ### SWEEP Modal ### -->
+    <div class="modal fade" id="portfolioModal-sweep" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+          </div>
+          <div class="modal-body">
+            <h2>AAA Ohio - Extra Credit Sweepstakes</h2>
+            <div class="container">
+              <div class="row">
+                <div class="span4">
+                  <img src="img/sweep1-lg.jpg" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="span8 text-left">
+                <p>Managed AAA Ohio external website pages and supported online marketing initiatives, such as sweepstakes and campaign landing pages.</p>
+                <p></p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-<!-- ### AAA - Website Modal ### -->
+<!-- ### ANB - Website Modal ### -->
     <div class="modal fade" id="portfolioModal-anb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -720,14 +815,16 @@
                 </div>
           </div>
           <div class="modal-body">
-            <h2>Animatronic Bear - Website</h2>
+            <h2>Animatronic Bear Website</h2>
             <div class="container">
               <div class="row">
                 <div class="span4">
-                  <img src="img/anb-thumb.jpg" class="img-responsive img-centered" alt="">
+                  <img src="img/anb-lg.jpg" class="img-responsive img-centered" alt="">
                 </div>
                 <div class="span8 text-left">
-                  <p>The Animatronic Bear website is a php-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages, to a fully database-driven inventory of products. After creating the inventory, I was able to then link inventory items together using meta data.</p>
+                  <p>The Animatronic Bear website is a PHP-based CMS built to allow easy editing by a non-programmer. The site helped the business move from a static set of pages to a fully database-driven inventory of products.</p>
+                  <h4>WEBSITE: &nbsp;<span class="muted"><a href="http://animatronicbear.com" target="_blank" />www.animatronicbear.com</a></span></h4>
+
                 
                 </div>
               </div>
