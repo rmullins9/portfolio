@@ -159,7 +159,7 @@
 
 
           <div class="span4">
-            <div class="mask2"> <a href="img/bdv-lg.jpg" rel="prettyPhoto"><img src="img/bdv-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-bdv" data-toggle="modal"><img src="img/bdv-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Data Visualization</h2>
@@ -173,7 +173,7 @@
 
 
           <div class="span4">
-            <div class="mask2"> <a href="img/mcc-lg.png" rel="prettyPhoto"><img src="img/dashboard-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-dbd" data-toggle="modal"><img src="img/dashboard-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Real-time Dashboards</h2>
@@ -192,7 +192,7 @@
        
 
         <div class="span4">
-            <div class="mask2"> <a href="img/tst-lg.jpg" rel="prettyPhoto"><img src="img/tst-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-tst" data-toggle="modal"><img src="img/tst-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Responsive Travel Website</h2>
@@ -208,7 +208,7 @@
         <div class="row">
 
           <div class="span4">
-            <div class="mask2"> <a href="img/wki-lg.jpg" rel="prettyPhoto"><img src="img/wki-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-wki" data-toggle="modal"><img src="img/wki-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>The Wind Kinetics Institute Website</h2>
@@ -223,7 +223,7 @@
           
 
           <div class="span4">
-            <div class="mask2"> <a href="img/oacis-lg.jpg" rel="prettyPhoto"><img src="img/oacis2-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-oacis" data-toggle="modal"><img src="img/oacis2-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>AAA Ohio - Intranet Home Page</h2>
@@ -235,7 +235,7 @@
           </div>
 
           <div class="span4">
-            <div class="mask2"> <a href="img/oac-lg.jpg" rel="prettyPhoto"><img src="img/oac-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-aaaweb" data-toggle="modal"><img src="img/oac-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>AAA Ohio - Mobile Website</h2>
@@ -265,7 +265,7 @@
           </div> -->
 
           <div class="span4">
-            <div class="mask2"> <a href="img/sweep1-lg.jpg" rel="prettyPhoto"><img src="img/sweep1-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-sweep" data-toggle="modal"><img src="img/sweep1-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>AAA Ohio - Extra Credit Sweepstakes</h2>
@@ -286,7 +286,7 @@
 
 
           <div class="span4">
-            <div class="mask2"> <a href="img/anb-lg.jpg" rel="prettyPhoto"><img src="img/anb-thumb.jpg" alt=""></a> </div>
+            <div class="mask2"> <a href="#portfolioModal-anb" data-toggle="modal"><img src="img/anb-thumb.jpg" alt=""></a> </div>
             <div class="inside">
               <hgroup>
                 <h2>Animatronic Bear Website</h2>
@@ -726,6 +726,7 @@
                 <div class="span8 text-left">
                   <p>Used bootstrap/CSS to reformat AAA Ohio's existing travel website to create a state-of-the-art mobile booking experience.</p>
                   <h4>WEBSITE: &nbsp;<span class="muted"><a href="http://aaaohiotravel.tstllc.net" target="_blank" />www.aaaohiotravel.tstllc.net</a></span></h4>
+                  <p>Additionally, I played a major role in the data integration from the booking website to AAA Ohio's membership database to keep information in sync between agent software and the website. The data integration used a customized middleware called WSO2 that tranformed XML data with XSLT. </p>
                  
                 
                 </div>
